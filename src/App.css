@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.user__container{
+  /* border-bottom: 1.2px solid rgb(255, 133, 34) ; */
+  border-bottom: double rgb(255, 133, 34);
+  height: 150px;
+  width: 600px;
+  /* padding: 10px 15px; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 26%;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.user__name{
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  text-transform: lowercase;
+  font-size: 1.4em;
+  font-variant: small-caps;
+  color: rgb(62, 168, 255);
+  align-self: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user__information{
+  display: flex;  
+  justify-content: space-between;
+  /* padding-bottom: 25px; */
+  color: rgb(0, 97, 177);
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  font-variant: small-caps;
+  height: 300px;
+  font-size: 0.9em;
+}
+
+.userName{
+  border-right: 1px solid rgb(255, 133, 34, 0.5);
+  margin-right: 20px;
+}
+
+.email{
+  border-right: 1px solid rgb(255, 133, 34, 0.5);
+  margin-right: 20px;
+
+}
+
+.street{
+  border-right: 1px solid rgb(255, 133, 34, 0.5);
+  margin-right: 20px;
+
+}
+
+.city{
+  /* border-right: 1px solid rgb(255, 133, 34, 0.5); */
+}
+
+.title{
+  color: rgb(255, 120, 9);
 }
